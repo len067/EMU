@@ -1,0 +1,22 @@
+FIELD_NAME,SBID,DEFECT,ANOMALY,COMMENT
+RACS_test4_1.05_0000-12A,8587,1,0,Missing and/or bad data
+RACS_test4_1.05_0131+37A,8537,1,0,Bad Beam or affected by 3C 048
+RACS_test4_1.05_0404-25A,12469,1,0,No beam weights
+RACS_test4_1.05_0216+06A,8641,0,1,Moon obscures part of field
+RACS_test4_1.05_0514-73A,9607,0,1,Heavily flagged
+RACS_test4_1.05_0526+25A,8538,1,0,Affected by Taurus A over-flagging
+RACS_test4_1.05_0535-06A,8592,1,0,Affected by 3C 145 over-flagging
+RACS_test4_1.05_0540+18A,8547,1,0,Affected by Taurus A over-flagging
+RACS_test4_1.05_0804-06A,12409,1,0,No beam weights
+RACS_test4_1.05_1237+12A,8569,1,0,Affected by Virgo A over-flagging
+RACS_test4_1.05_1323-43A,8673,1,0,Affected by Centaurus A over-flagging
+RACS_test4_1.05_1335-25A,8576,1,0,Bad Beam
+RACS_test4_1.05_1730-68A,12442,1,0,No beam weights
+RACS_test4_1.05_1739-25A,8576,1,1,Bad beam; Jupiter in field
+RACS_test4_1.05_1752-31A,8591,1,0,Affected by Sagittarius A over-flagging
+RACS_test4_1.05_1806-25A,8576,1,0,Bad beam
+RACS_test4_1.05_1928-25A,8576,0,1,Moon obscures part of field
+RACS_test4_1.05_1938-18A,8576,0,1,Moon obscures part of field
+RACS_test4_1.05_1917+31A,13694,1,0,Very poor data
+RACS_test4_1.05_1947+12A,13605,1,0,Obs failure
+RACS_test4_1.05_1954+37A,8542,1,0,Affected by Cygnus A over-flagging

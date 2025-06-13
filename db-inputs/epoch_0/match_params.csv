@@ -1,0 +1,11 @@
+cat, file, freq, ident, ra, dec, tflux, flux, im_rms, ares_min, ares_max, snr_min, rad1, rad2, alpha
+THIS, , 0.9435, component_id, ra_deg_cont, dec_deg_cont, flux_int, flux_peak, rms_image, 0.8, 1.2, 10.0, 10.0, 90.0, -0.8
+RACS-low, $SURVEY/db-inputs/RACS-low_isolated.fits, 0.8875, Gaussian_ID, RA, Dec, Total_flux_Gaussian, Peak_flux, Noise, , , , , ,
+RACS-mid, $SURVEY/db-inputs/RACS-mid_isolated.fits, 1.2725, Gaussian_ID, RA, Dec, Total_flux, Peak_flux, Noise, , , , , ,
+RACS-high, $SURVEY/db-inputs/RACS-high_isolated.fits, 1.6325, Gaussian_ID, RA, Dec, Total_flux, Peak_flux, Noise, , , , , ,
+VLASS, $SURVEY/db-inputs/vlass_isolated.fits, 3.0, VLASS, RA_1, DEC_1, Total_flux_1,,,,,,,
+NVSS, $SURVEY/db-inputs/NVSS_vizier.fits, 1.4, NVSS, RAJ2000, DEJ2000, S1_4,,,,,,,
+SUMSS, $SURVEY/db-inputs/SUMSS_MGPS2.fits, 0.843, , RAJ2000, DEJ2000, St,,,,,,,
+TGSS, $SURVEY/db-inputs/J_A+A_598_A78.fits, 0.150, TGSSADR, RAdeg, DEdeg, Stotal,,,,,,,
+ICRF, $SURVEY/db-inputs/icrf.csv, , IERS Des., RA, Dec, , ,,,,,,,
+

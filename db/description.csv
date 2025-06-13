@@ -1,0 +1,2 @@
+EPOCH,OBS_FREQ,FOOTPRINT,PITCH,ROTATION,DURATION,POL_MODE,DATABASE,PRODUCT_ROOT
+0,943.5,closepack36,0.9,45.0,36000.0,pa_fixed,epoch_0,/askapbuffer/payne/len067/science-processing

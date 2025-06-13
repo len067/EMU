@@ -1,0 +1,17 @@
+file_types,       name_templates
+# used as : name = tmpl.format(cal_sbid, sbid, fld, taylor, stokes, beam)
+bp_table,                {0:d}/BPCAL/calparameters.1934_bp.SB{0:d}.tab
+bp_leakage_table,        {0:d}/BPCAL/calparameters.1934_bpleakage.SB{0:d}.tab
+imaging_parset,          {1:d}/parsets/{2:}/continuum_image_selfcal_F00_B00*.in
+ms_av_cal,               {1:d}/{2:}/scienceData.{2:}.SB{1:d}.{2:}.beam{5:02d}_averaged_cal.ms
+ms_av_cal_lk,            {1:d}/{2:}/scienceData.{2:}.SB{1:d}.{2:}.beam{5:02d}_averaged_cal.leakage.ms
+flag_summary,            {1:d}/{2:}/scienceData.{2:}.SB{1:d}.{2:}.beam{5:02d}_averaged.ms.flagSummary
+beam_image_raw,          {1:d}/{2:}/image.{4:}.{2:}.SB{1:d}.cont.{2:}.beam{5:02d}.taylor.{3:d}.restored.raw.fits
+beam_image_convolved,    {1:d}/{2:}/image.{4:}.{2:}.SB{1:d}.cont.{2:}.beam{5:02d}.taylor.{3:d}.restored.conv.fits
+beam_weights,            {1:d}/{2:}/weights.{4:}.{2:}.SB{1:d}.cont.{2:}.beam{5:02d}.taylor.{3:d}.fits
+mosaic_image_raw,        {1:d}/image.{4:}.{2:}.SB{1:d}.cont.taylor.{3:}.restored.fits
+mosaic_image_convolved,  {1:d}/image.{4:}.{2:}.SB{1:d}.cont.taylor.{3:}.restored.conv.fits
+mosaic_weights,          {1:d}/weights.{4:}.{2:}.SB{1:d}.cont.taylor.{3:}.fits
+mosaic_rms,              {1:d}/{2:}/image.{4:}.{2:}.SB{1:d}.cont.taylor.{3:}.restored.conv.iqr.fits
+selavy-islands,          {1:d}/selavy-cont-image.{4:}.{2:}.SB{1:d}.cont.taylor.{3:}.restored.conv/selavy-image.{4:}.{2:}.SB{1:d}.cont.taylor.{3:}.restored.conv.islands.xml
+selavy-components,       {1:d}/selavy-cont-image.{4:}.{2:}.SB{1:d}.cont.taylor.{3:}.restored.conv/selavy-image.{4:}.{2:}.SB{1:d}.cont.taylor.{3:}.restored.conv.components.xml

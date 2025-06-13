@@ -1,0 +1,12 @@
+CNAME,       CTYPE,       CFILL,     ARGS,            METHOD
+BEAM_NUM,   int,           -1,       -,                nil
+BEAM_TIME,  float,         -1.,      beam@DATE,        str_to_mjdsec
+RA_DEG,     float,         0.,       beam@CRVAL1,      nil
+DEC_DEG,    float,         0.,       beam@CRVAL2,      nil
+GAL_LONG,   float,         0.0,      @RA_DEG;@DEC_DEG, to_gall
+GAL_LAT,    float,         0.,       @RA_DEG;@DEC_DEG, to_galb
+PSF_MAJOR,  float,         0.0,      beam@BMAJ,        deg_to_asec
+PSF_MINOR,  float,         0.0,      beam@BMIN,        deg_to_asec
+PSF_ANGLE,  float,         0.,       beam@BPA,         nil
+VIS_TOTAL,  int,           0,        flag_summary@VIS_FLAGGED, nil
+VIS_FLAGGED,int,           0,        flag_summary@VIS_TOTAL,   nil
